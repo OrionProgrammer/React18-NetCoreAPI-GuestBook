@@ -16,7 +16,14 @@ export default class App extends Component {
               <Route path="/guest/edit/:id" element={<Guest />} exact />
               <Route path="/guest-list" element={<GuestList />} exact />
             </Routes>
-            <h1>Home Page</h1>
+            <h4>Welcome to your Guest Book</h4>
+            <p>
+                Click on 'Guest List' to view all guests attending.
+            </p>
+
+            <p>
+                To add a guest, click on 'Add Guest'
+            </p>
         </Layout>
         </>
     );

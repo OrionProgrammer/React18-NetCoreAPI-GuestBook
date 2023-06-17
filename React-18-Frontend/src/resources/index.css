@@ -17,3 +17,31 @@ input {
   border: 1px solid #999 !important;
 }
 
+ul.side-menu{
+  margin: 20px auto auto auto;
+  align-items: center;
+  width: 80%;
+}
+
+ul.side-menu li{
+  margin-bottom: 20px;
+  display: flex;
+  background-repeat: no-repeat;
+}
+
+ul.side-menu li.guest-list-link {
+  background-image: url('../resources/guest-list-image.png') !important;
+  
+}
+
+.side-menu li.guest-add-link {
+  background-image: url('../resources/guest-add.png') !important;
+}
+
+.side-menu li > a{
+  text-indent: -10000px !important;
+  text-decoration: none;
+  width:64px !important;
+  height: 64px !important;
+}
+
